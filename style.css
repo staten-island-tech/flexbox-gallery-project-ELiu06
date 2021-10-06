@@ -10,18 +10,13 @@ body,
 .parent {
   font-size: 20px;
 }
-h2 {
-  margin: 1rem;
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+.about-card {
 }
 
-.px-size {
-  font-size: 20px;
-}
-
-.rem-size {
-  font-size: 2rem;
-}
-
-.em-size {
-  font-size: 1em;
+img {
+  width: 30vw;
 }
