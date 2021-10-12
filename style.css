@@ -20,14 +20,15 @@ h2 {
 }
 .about-card {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   margin-bottom: 7rem;
   width: 28%;
+  align-items: center;
 }
 
 .about {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: space-between;
   margin-top: 7rem;
 }
