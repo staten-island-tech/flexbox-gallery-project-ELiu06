@@ -22,7 +22,7 @@ h2 {
   display: flex;
   flex-flow: column wrap;
   margin-bottom: 7rem;
-  width: 28%;
+  width: 30%;
   align-items: center;
 }
 
@@ -41,9 +41,22 @@ img {
 .header::before {
   content: "\1F5A4";
   font-size: 5rem;
+  position: absolute;
+  left: 40%;
 }
 
 .header:hover {
   transform: scale(1.5);
   transition: all 0.6s;
+}
+
+.about-card:hover {
+  transform: scale(1.1);
+  transition: all 0.4s;
+  outline: 0.5rem solid rgb(33, 143, 143);
+}
+
+.gallery:hover .about-card:not(:hover) {
+  transform: scale(0.5);
+  opacity: 0.3;
 }
