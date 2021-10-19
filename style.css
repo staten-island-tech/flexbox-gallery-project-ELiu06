@@ -51,12 +51,9 @@ img {
 }
 
 .about-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.1s);
   transition: all 0.4s;
-  outline: 0.5rem solid rgb(33, 143, 143);
 }
-
 .gallery:hover .about-card:not(:hover) {
   transform: scale(0.5);
-  opacity: 0.3;
 }
