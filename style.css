@@ -65,27 +65,31 @@ img {
 @keyframes test {
   0% {
     left: 50%;
-    bottom: 10%;
+    bottom: -110%;
     background-color: purple;
   }
   25% {
     left: 50%;
-    bottom: 20%;
+    bottom: -120%;
     background-color: pink;
   }
   50% {
     left: 55%;
-    bottom: 20%;
+    bottom: -120%;
     background-color: powderblue;
   }
   75% {
     left: 55%;
-    bottom: 10%;
+    bottom: -110%;
     background-color: rgb(33, 143, 143);
   }
   100% {
     left: 50%;
-    bottom: 10%;
+    bottom: -110%;
     background-color: skyblue;
   }
+}
+
+.animation-container {
+  justify-content: flex-end;
 }
