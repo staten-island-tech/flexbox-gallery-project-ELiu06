@@ -65,28 +65,23 @@ img {
 @keyframes test {
   0% {
     left: 50%;
-    bottom: -110%;
-    background-color: purple;
+    bottom: -98%;
   }
   25% {
     left: 50%;
-    bottom: -120%;
-    background-color: pink;
+    bottom: -100%;
   }
   50% {
     left: 55%;
-    bottom: -120%;
-    background-color: powderblue;
+    bottom: -100%;
   }
   75% {
     left: 55%;
-    bottom: -110%;
-    background-color: rgb(33, 143, 143);
+    bottom: -98%;
   }
   100% {
     left: 50%;
-    bottom: -110%;
-    background-color: skyblue;
+    bottom: -98%;
   }
 }
 
