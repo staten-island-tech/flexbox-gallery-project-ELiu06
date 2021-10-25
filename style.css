@@ -58,7 +58,7 @@ img {
 .animation {
   height: 2rem;
   width: 2rem;
-  animation: test 5s infinite;
+  animation: test 4s infinite;
   position: absolute;
 }
 
@@ -87,4 +87,15 @@ img {
 
 .animation-container {
   justify-content: flex-end;
+  margin: 10%;
+}
+
+.moth:hover {
+  transition: all 5s;
+  transform: rotate(360deg);
+  position: absolute;
+  margin: 5rem;
+}
+
+.unusannus:hover {
 }
