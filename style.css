@@ -26,16 +26,16 @@ h2 {
   align-items: center;
 }
 
+.photo {
+  box-shadow: 60px -16px teal;
+  width: 20vw;
+}
+
 .about {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   margin-top: 7rem;
-}
-
-.photo {
-  width: 20vw;
-  box-shadow: 60px -16px teal;
 }
 
 .header::before {
@@ -90,6 +90,10 @@ h2 {
   position: absolute;
 }
 
+.picture {
+  width: 15vw;
+}
+
 .moth:hover {
   transition: all 5s;
   transform: rotate(360deg);
@@ -98,6 +102,4 @@ h2 {
 
 .unus-annus:hover {
   transition: all 5s;
-  transform: rotate(360deg);
-  margin: 6rem;
 }
