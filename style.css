@@ -102,4 +102,8 @@ h2 {
 
 .unus-annus:hover {
   transition: all 5s;
+  transform: rotate(90deg);
+  margin: 7rem;
 }
+
+@media all and (max-width: 500px);
